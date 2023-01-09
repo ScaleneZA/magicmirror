@@ -1,5 +1,5 @@
-TEMP_MAX = 55 # Turn fan on
-TEMP_MIN = 50 # Turn fan off
+TEMP_MAX = 60 # Turn fan on
+TEMP_MIN = 55 # Turn fan off
 
 GPIO = {
     "SCREEN": 17,
