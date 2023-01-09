@@ -6,7 +6,7 @@ import config
 import control
 
 while True:
-    cpu = CPUTemperature()
+    cpu = CPUTemperature().temperature
     if cpu > config.TEMP_MAX:
         control.turnOn("FAN")
     elif cpu < config.TEMP_MIN:
